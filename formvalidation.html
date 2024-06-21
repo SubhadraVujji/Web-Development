@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Task 3</title>
+    <link rel="stylesheet" href="style3.css">
+    <script defer src="formvalidation.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Basic Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com/">Home Page</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id='home'>
+            <h2>Home Page</h2>
+            <p>This is the home section of this web page where details regarding the introduction of it are mentioned.</p>
+        </section>
+        <section id='details'>
+            <h2>Details</h2>
+            <p>This section consists of information about the web page and it gives a description of its purpose.</p>
+        </section>
+        <section id='contact'>
+            <h2>Contact</h2>
+            <p>In this section, you can provide the contact information through a simple form.</p>
+            <form id="contactForm">
+                <label for="name">Full Name:</label>
+                <input type='text' id='name' name='Full Name' required>
+                <label for='email'>Mail id:</label>
+                <input type='email' id='email' name='Mail id' required>
+                <label for='message'>Description:</label>
+                <input type='text' id='message' name='Description' required>
+                <button type='submit'>Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer><p>&copy; 2024 Basic Web Page. All rights reserved.</p></footer>
+</body>
+</html>
